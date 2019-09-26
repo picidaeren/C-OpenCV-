@@ -1,4 +1,4 @@
-# C++ -OpenCV-
+# C++11 OpenCV3.0
 C++ 基于 OpenCV 实现实时监控和运动检测记录
 
 需要opencv3.0的支持，在opencv4.1.0中很多宏函数已经改变
