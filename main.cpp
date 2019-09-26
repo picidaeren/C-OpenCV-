@@ -1,5 +1,8 @@
 #include "monitor.hpp"
 
+
+//Ptr <T>封装了一个指向T实例的指针和与该指针关联的引用计数器。
+
 Ptr<BackgroundSubtractor> pMOG; //MOG Background subtractor
 Ptr<BackgroundSubtractor> pMOG2; //MOG2 Background subtractor
 int keyboard;
@@ -11,6 +14,7 @@ void help();
 int main(int argc, char* argv[]){
 	bool showWindow = false;
 	unsigned int method = 0, unnormal = 10, fps = 24;
+	//判断参数
 	if (argc > 6){
 		cerr << "Invalid Parameters, Exiting..." << endl;
 		exit(EXIT_FAILURE);
